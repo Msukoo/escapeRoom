@@ -1,0 +1,45 @@
+@charset "UTF-8";
+#contents{
+	width : 1250px;
+	background-color : white;
+	margin : 40px auto;
+	padding : 50px;
+}
+#usertb{
+	width : 1150px;
+}
+thead td{
+	background : #EAEAEA;
+	font-weight : bold;
+	font-size: 1em;
+}
+td{
+	border-bottom : 1px solid black;
+	color : #747474;
+	height : 70px;
+	text-align: center;
+	font-size : 15px;
+	font-weight : bold;
+}
+#second{
+	margin-top : 70px;
+}
+#bookingtb{
+	width : 1150px;
+}
+thead td{
+	background : #EAEAEA;
+	font-weight : bold;
+	font-size: 1em;
+}
+td{
+	border-bottom : 1px solid black;
+	color : #747474;
+	height : 70px;
+	text-align: center;
+	font-size : 15px;
+	font-weight : bold;
+}
+#thematd{
+	width : 300px;
+}

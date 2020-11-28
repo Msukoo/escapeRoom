@@ -1,0 +1,48 @@
+@charset "UTF-8";
+* { margin: 0; padding: 0; }
+a{
+    text-decoration: none;
+}
+body{
+    background : #003569;
+}
+div{
+	width : 400px;
+	height : 400px;
+	background : white;
+	margin:10% auto;
+	padding : 30px;
+	box-shadow : 10px 10px 10px black;
+}
+#imgtr{
+	text-align : center;
+}
+img{
+	margin : 10px;
+	width : 150px;
+}
+.inputbox{
+	width : 380px;
+	height : 30px;
+}
+#loginbtn{
+	width : 390px;
+	height : 35px;
+	background : #003569;
+	color : white;
+	border : 0;
+	outline : 0;
+	border-radius: 12px;
+	font-size : 1em;
+}
+#join{
+	padding : 20px;
+}
+#join a{
+	float : right;
+}
+#noInfo{
+	color :red;
+	font-weight : bold;
+	font-style : oblique;
+}

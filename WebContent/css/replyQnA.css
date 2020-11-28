@@ -1,0 +1,48 @@
+@charset "UTF-8";
+#contents{
+	width : 900px;
+	background-color : white;
+	margin : 40px auto;
+	padding : 50px;
+}
+h2{
+	padding-bottom : 20px;
+	margin-left : 10px;
+	color : #8C8C8C;
+	font-family: 'Do Hyeon', sans-serif;
+}
+#rplyTb{
+	width : 870px;
+}
+#titletd{
+	font-size : 1.5em;
+	border : none;
+	border-bottom : 2px solid #BDBDBD;
+	color : #747474;
+	font-size : 1.2em;
+	padding: 10px 5px;
+	width : 100%;
+	margin-bottom:20px;
+}
+#contentstd{
+	width : 100%;
+	border-bottom : 2px solid #BDBDBD;
+	font-size : 1.2em;
+	font-family: inherit;
+	padding : 20px 10px 10px 10px;
+	
+}
+.submit_btn{
+	font-size : 1.1em;
+	width : 100px;
+	height : 40px;
+	border: 2px solid #003569;
+	background : white;
+	color : #003569;
+	border-radius : 5px;
+	float : right;
+	margin :10px 0 0 10px;
+}
+.submit_btn:hover{
+	border: 2px solid #FFE400;
+}

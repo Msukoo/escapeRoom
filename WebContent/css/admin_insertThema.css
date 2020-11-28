@@ -1,0 +1,51 @@
+@charset "UTF-8";
+* { margin: 0; padding: 0; }
+a{
+    
+}
+body{
+	background : #E4E4E4;
+}
+#contents{
+	width : 1000px;
+	background-color : white;
+	margin : 40px auto;
+	padding : 50px;
+}
+h2{
+	padding-bottom : 20px;
+	margin-left : 10px;
+	color : #8C8C8C;
+	font-family: 'Do Hyeon', sans-serif;
+}
+#insertTb{
+	width : 950px;
+}
+.tbTitle{
+	background-color : #D5D5D5;
+	width : 200px;
+	text-align: right;
+	padding : 10px;
+	color : #5D5D5D;
+	border-radius : 5px;
+}
+#nameTxt{
+	width:700px;
+	border : 1px solid #8C8C8C;
+	border-radius : 5px;
+	height : 30px;
+}
+#sel{
+	width:100px;
+	border : 1px solid #8C8C8C;
+	border-radius : 5px;
+	height : 30px;
+}
+#okBtn{
+	background-color : #D5D5D5;
+	color : #5D5D5D;
+	border-radius : 5px;
+	padding : 10px;
+	float : right;
+	border : none;
+}

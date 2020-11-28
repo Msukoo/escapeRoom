@@ -1,0 +1,89 @@
+@charset "UTF-8";
+* { margin: 0; padding: 0; }
+body{
+	background-color : #E8E8E8;
+}
+#contents{
+	width : 900px;
+	background-color : white;
+	margin : 40px auto;
+	padding : 50px;
+}
+h2{
+	padding-bottom : 20px;
+	margin-left : 10px;
+	color : #8C8C8C;
+	font-family: 'Do Hyeon', sans-serif;
+}
+#viewTb{
+	width : 880px;
+	margin-bottom : 50px;
+}
+#titletd{
+	font-size : 1.5em;
+	border-bottom : 2px solid #BDBDBD;
+	color : #747474;
+	font-size : 1.5em;
+	padding: 10px 5px;
+}
+#idtd{
+	color : #747474;
+	font-size : 1em;
+	padding: 10px 5px;
+	text-align: right;
+}
+#contentstd{
+	border-bottom : 2px solid #BDBDBD;
+	font-size : 1.2em;
+	font-family: inherit;
+	padding : 20px 10px 100px 10px;
+}
+#contentsBox {
+	border: 1px solid white;
+	font-size : 1em;
+	font-family: inherit;
+}
+.submit_btn{
+	font-size : 1.1em;
+	width : 100px;
+	height : 40px;
+	border: 2px solid #003569;
+	background : white;
+	color : #003569;
+	border-radius : 5px;
+	float : right;
+	margin :10px 0 0 10px;
+}
+.submit_btn:hover{
+	border: 2px solid #FFE400;
+}
+#rplyTb{
+	margin-top : 50px;
+	margin-bottom : 100px;
+	width : 880px;
+	border-collapse: collapse;
+}
+#rply{
+	font-size : 0.8em;
+}
+#rplyTxt{
+	width : 880px;
+	height : 50px;
+}
+#rplyBtn{
+	width : 60px;
+	height : 30px;
+	border: 2px solid #003569;
+	background : white;
+	color : #003569;
+	border-radius : 5px;
+	float : right;
+	margin :2px 20px 0 0;
+}
+#rplyid{
+	width:20%;
+}
+#rplyTb td{
+	border-top : 1px solid #BDBDBD;
+	padding : 20px 10px;
+}

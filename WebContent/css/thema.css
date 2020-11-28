@@ -1,0 +1,64 @@
+@charset "UTF-8";
+* { margin: 0; padding: 0; }
+body{
+	background-color : #E8E8E8;
+}
+
+#contents{
+	width : 1200px;
+	background-color : white;
+	margin : 40px auto;
+	padding : 50px;
+}
+h2{
+	padding-bottom : 20px;
+	margin-left : 10px;
+	color : #8C8C8C;
+	font-family: 'Do Hyeon', sans-serif;
+}
+.themaTb td{
+	text-align: left;
+}
+.themaTb{
+	width : 1100px;
+	height : 150px;
+	border-bottom : 1px solid #8C8C8C;
+	margin: 10px auto;
+}
+.star{
+	width:20px;
+}
+.mbtn{
+	display : inline-block;
+	float : right;
+	font-weight: bold;
+	padding-right : 10px;
+	
+}
+.go_btn{
+	font-size : 1.1em;
+	width : 100px;
+	height : 40px;
+	border: 2px solid #003569;
+	background : white;
+	color : #003569;
+	border-radius : 5px;
+	padding : 8px 10px;
+	margin :10px 0 0 10px;
+}
+.go_btn:hover{
+	border: 2px solid #FFE400;
+}
+.th_img{
+	width:250px;
+	padding-right : 20px;
+}
+.th_name{
+	font-family: 'Sunflower', sans-serif;
+	font-weight: bold;
+	font-size : 30px;
+}
+.th_contents{
+	font-family: 'Sunflower', sans-serif;
+	color : #8C8C8C;
+}

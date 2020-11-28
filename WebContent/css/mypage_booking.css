@@ -1,0 +1,97 @@
+@charset "UTF-8";
+* { margin: 0; padding: 0; }
+body{
+	background-color : #E8E8E8;
+}
+.contents{
+	width : 1000px;
+	margin : 50px auto 0 auto;
+	background-color : white;
+}
+/*user info*/
+#user table{
+	border : none;
+	width : 900px;
+	margin : 20px auto;
+	padding : 50px;
+	font-weight : bold;
+}
+#name{
+	font-size : 1.5em;
+}
+#user table img{
+	width : 50px;
+}
+#trophyNum{
+	font-size : 3em;
+}
+
+/*마이페이지목록*/
+#infomenu table{
+	border : none;
+	width : 900px;
+	margin : 20px auto;
+	text-align: center;
+}
+#infomenu table td{
+	border-bottom : 3px solid white;
+}
+#infomenu table td:hover{
+	border-bottom : 3px solid #003569;
+}
+#infomenu a{
+	font-family: 'Do Hyeon', sans-serif;
+	color : #003569;
+}
+#current{
+	font-size : 35px;
+}
+.other{
+	font-size : 20px;
+}
+#contents{
+	width : 1000px;
+	background-color : white;
+	margin : 0 auto;
+}
+
+/*컨텐츠*/
+#contents{
+	width : 1150px;
+	background-color : white;
+	margin : 0 auto;
+	padding : 50px;
+}
+h2{
+	padding-bottom : 20px;
+	margin-left : 10px;
+	color : #8C8C8C;
+}
+#mybook_tb{
+	width : 1100px;
+}
+td{
+	border-bottom : 1px solid #8C8C8C;
+	color : #003569;
+	height : 70px;
+	text-align: center;
+	font-size : 15px;
+	font-weight : bold;
+}
+.bookBtn{
+	padding : 12px 30px;
+	background : #003569;
+	color : white;
+	border : none;
+	font-size: 1em;
+	font-weight : bold;
+	border-radius: 2px;
+}
+#cancle{
+	background : red;
+}
+thead td{
+	background : #EAEAEA;
+	font-weight : bold;
+	font-size: 1em;
+}

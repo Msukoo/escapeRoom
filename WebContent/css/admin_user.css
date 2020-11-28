@@ -1,0 +1,78 @@
+@charset "UTF-8";
+* { margin: 0; padding: 0; }
+a{
+    
+}
+body{
+	background : #E4E4E4;
+}
+#contents{
+	width : 1400px;
+	background-color : white;
+	margin : 40px auto;
+	padding : 50px;
+}
+h2{
+	padding-bottom : 20px;
+	margin-left : 10px;
+	color : #8C8C8C;
+	font-family: 'Do Hyeon', sans-serif;
+}
+.choice {
+	width: 100px;
+	padding: .8em .5em;
+	border: 3px solid #F15F5F;
+	font-size: 1em;
+	font-weight : bold;
+	color : #8C8C8C;
+	background: url('arrow.jpg') no-repeat 95% 50%;
+}
+#searchtxt{
+	width: 200px;
+	padding : 1em .5em;
+	border: 3px solid #F15F5F;
+}
+#searchBtn{
+	padding : 12px 30px;
+	background : #F15F5F;
+	color : white;
+	border : none;
+	margin : 25px auto;
+	font-size: 1em;
+	font-weight : bold;
+}
+#usertb{
+	width : 1350px;
+}
+thead td{
+	background : #EAEAEA;
+	font-weight : bold;
+	font-size: 1em;
+}
+td{
+	border-bottom : 1px solid black;
+	color : #747474;
+	height : 70px;
+	text-align: center;
+	font-size : 15px;
+	font-weight : bold;
+}
+#num{
+	width: 50px;
+}
+#thematd{
+	width : 300px;
+}
+#statusOk{
+	color : #0054FF;
+}
+.modifyBtn{
+	padding : 10px 20px;
+	background : #F15F5F;
+	color : white;
+	border : none;
+	font-size: 1em;
+	font-weight : bold;
+	border-radius: 2px;
+	margin-bottom : 5px;
+}

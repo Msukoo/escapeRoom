@@ -1,0 +1,105 @@
+@charset "UTF-8";
+body{
+	margin :0;
+}
+/*상단*/
+#top_navi{
+	width : 100%;
+	height : 120px;
+	background : #003569;
+}
+#logo{
+	width:200px;
+}
+a{
+	text-decoration : none;
+}
+#menu{
+	overflow: hidden;
+	display : inline-block;
+	float : right;
+	list-style-type : none;
+	margin-right : 300px;
+}
+.sub_menu{
+	position: absolute;
+    display: none;
+}
+#drop:hover .sub_menu {
+    display: block;
+    background-color: #003569
+}
+.comu_menu{
+	display: block;
+    text-align: center;
+    color:white;
+    margin : 20px;
+}
+.comu_menu:hover{
+    background-color: #003569
+}
+.menuli{
+	display : inline-block;
+}
+.menuli a:hover{
+	color:#ECB865;
+}
+li a{
+	color : white;
+	font-weight : bold;
+	font-size : 2em;
+	font-family: 'Do Hyeon', sans-serif;
+    display: inline-block;
+    margin: 50px 20px 0 20px;
+}
+.loginout{
+	float : right;
+	position : absolute;
+	top : 65px;
+	right : 170px;
+	font-family: 'Do Hyeon', sans-serif;
+}
+/*까지 상단*/
+
+#join{
+	width : 450px;
+	background : white;
+	margin:5% auto;
+	padding : 30px;
+}
+h1{
+	text-align: center;
+	padding-bottom : 20px;
+	color : #003569;
+}
+tr{
+	height : 50px;
+}
+.subject{
+	width : 150px;
+	text-align: center;
+	color : #003569;
+}
+.input{
+	width : 250px;
+	height : 30px;
+	border : 2px solid #003569;
+}
+.pinput{
+	border : 2px solid #003569;
+	width : 65px;
+	height : 30px;
+	
+}
+#btntr{
+	align-items : center;
+	text-align : conter;
+}
+#joinBtn{
+	padding : 15px 30px;
+	background : #003569;
+	color : white;
+	border : none;
+	margin : 30px 170px;
+	
+}

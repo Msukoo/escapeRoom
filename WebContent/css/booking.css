@@ -1,0 +1,81 @@
+@charset "UTF-8";
+* { margin: 0; padding: 0; }
+body{
+	background-color : #E8E8E8;
+}
+
+/*날짜 테마 선택*/
+#contents{
+	width : 900px;
+	background-color : white;
+	margin : 40px auto;
+	padding : 50px;
+}
+h2{
+	padding-bottom : 20px;
+	margin-left : 10px;
+	color : #8C8C8C;
+}
+.choice {
+	width: 200px;
+	padding: .8em .5em;
+	border: 3px solid #003569;
+	font-size: 1em;
+	font-weight : bold;
+	color : #8C8C8C;
+	background: url('arrow.jpg') no-repeat 95% 50%;
+	border-radius: 0px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+#choice2{
+	width: 400px;
+}
+select::-ms-expand {
+display: none;
+}
+#choiceBtn{
+	padding : 12px 30px;
+	background : #003569;
+	color : white;
+	border : none;
+	margin : 25px auto;
+	font-size: 1em;
+	font-weight : bold;
+}
+
+/*리스트*/
+#nochoice{
+	margin : 0 auto;
+	font-size: 1.5em;
+	font-weight : bold;
+	color : #747474;
+	padding-bottom : 200px;
+}
+#bookingtb{
+	width : 850px;
+}
+td{
+	border-bottom : 1px solid black;
+	color : #747474;
+	height : 70px;
+	text-align: center;
+	font-size : 15px;
+	font-weight : bold;
+}
+.bookBtn{
+	padding : 12px 30px;
+	background : #747474;
+	color : white;
+	border : none;
+	font-size: 1em;
+	font-weight : bold;
+	border-radius: 2px;
+}
+#soldout{
+	color: #ED0000;
+}
+.star{
+	width:20px;
+}

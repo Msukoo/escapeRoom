@@ -1,0 +1,21 @@
+@charset "UTF-8";
+body{
+    background : #003569;
+}
+div{
+	text-align : center;
+	width : 400px;
+	height : 350px;
+	background : white;
+	margin:10% auto;
+	padding : 30px;
+	box-shadow : 10px 10px 10px black;
+}
+.title{
+	border-bottom : 1px solid #BDBDBD;
+	padding-bottom : 40px;
+}
+p{
+	text-align: center;
+	font-size : 1.2em;
+}
