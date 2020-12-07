@@ -16,8 +16,8 @@ public class ModifyUserInfoCommand implements Command {
 	public void excute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		HttpSession session = request.getSession();
 		UserDTO userdto = new UserDTO();
-		userdto.setUser_email((String)session.getAttribute("idSession"));
-		userdto.setUser_id(request.getParameter("id"));
+		userdto.setUser_id((String)session.getAttribute("idSession"));
+		userdto.setUser_email(request.getParameter("email"));
 		userdto.setUser_pw(request.getParameter("pw"));
 		userdto.setUser_phone
 			(request.getParameter("phone1").trim() + request.getParameter("phone2").trim() + request.getParameter("phone3").trim());
